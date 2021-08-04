@@ -1,7 +1,7 @@
 // init project
 let express = require("express");
 let bodyParser = require("body-parser");
-const tasksRoute = require('./routes/tasks.routes.js');
+const tasksRoute = require('./routes/tasks.routes.js').router;
 let app = express();
 
 // parses the JSON request body string into an object and then assigns it to req.body

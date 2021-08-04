@@ -9,3 +9,5 @@ router.get("/", function (req, res) {
 router.get("/tasks", controller.getAll);
 router.get("/tasks/:id", controller.getById);
 router.get("/tasks/search/:query", controller.getByQuery);
+
+module.exports = { router };
