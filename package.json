@@ -2,9 +2,9 @@
     "name": "rest-api",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "app.js",
     "scripts": {
-      "start": "nodemon index.js localhost 8080"
+      "start": "nodemon app.js localhost 8080"
     },
     "dependencies": {
       "body-parser": "1.19.0",
