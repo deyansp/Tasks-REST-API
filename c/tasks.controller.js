@@ -29,4 +29,4 @@ function getByQuery (req, res) {
     ? res.json(result)
     : res.status(404).json({ error: "No search results" });
 }
-module.exports = { getAll, getOne, getByQuery };
+module.exports = { getAll, getById, getByQuery };
