@@ -6,9 +6,12 @@ The API receives queries through URL parameters and returns JSON data as a respo
 
 # Supported URL Requests and Examples
 The following paths are supported:
+
  * /tasks
  * /tasks/:id
  * /tasks/search/:query
+
+Example requests:
 
 * Return a list of all tasks 
 `/tasks`
